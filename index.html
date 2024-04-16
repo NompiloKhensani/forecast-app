@@ -15,11 +15,12 @@
   <body>
     <div class="forecast-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             required
+            id="search-form-input"
             class="search-form-input"
           />
           <input type="submit" value="Search" class="search-button" />
@@ -28,7 +29,7 @@
       <main>
         <div class="forecast-app-data">
           <div>
-            <h1 class="forecast-city">Pretoria</h1>
+            <h1 class="forecast-city" id="city">Pretoria</h1>
             <p class="forecast-details">
               Tuesday 17:25, broken clouds
               <br />
@@ -59,5 +60,6 @@
         >
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
