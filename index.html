@@ -15,28 +15,39 @@
   <body>
     <div class="forecast-app">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city..." required />
-          <input type="submit" value="Search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Pretoria</h1>
-          <p>
-            Tuesday 17:25, broken clouds
-            <br />
-            Humidity: 61%, Wind: 9.26km/h
-          </p>
+        <div class="forecast-app-data">
+          <div>
+            <h1 class="forecast-city">Pretoria</h1>
+            <p class="forecast-details">
+              Tuesday 17:25, broken clouds
+              <br />
+              Humidity: <strong>61%</strong>, Wind: <strong>9.26km/h</strong>
+            </p>
+          </div>
+          <div class="forecast-temp-container">
+            <div class="forecast-icon">⛅</div>
+            <div class="forecast-temp-value">12</div>
+            <div class="forecast-unit">℃</div>
+          </div>
         </div>
-        <div>⛅ 12℃</div>
       </main>
       <footer>
         Coded by
         <a href="https://github.com/NompiloKhensani" target="_blank">
           Nompilo Shabangu,</a
         >
-        is open-sourced on
+        open-sourced on
         <a
           href="https://github.com/NompiloKhensani/forecast-app"
           target="_blank"
