@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forecast App</title>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,7 +30,7 @@
       <main>
         <div class="forecast-app-data">
           <div>
-            <h1 class="forecast-city" id="city">Pretoria</h1>
+            <h1 class="forecast-city" id="city"></h1>
             <p class="forecast-details">
               Tuesday 17:25, broken clouds
               <br />
@@ -39,7 +39,7 @@
           </div>
           <div class="forecast-temp-container">
             <div class="forecast-icon">⛅</div>
-            <div class="forecast-temp-value">12</div>
+            <div class="forecast-temp-value" id="temperature"></div>
             <div class="forecast-unit">℃</div>
           </div>
         </div>
