@@ -56,18 +56,19 @@ main {
 .forecast-temp-container {
   display: flex;
 }
+.forecast-icon {
+  width: 98px;
+  height: 98px;
+}
 .forecast-temp-value {
   font-size: 88px;
+  line-height: 88px;
   font-weight: bold;
   color: #272142;
-  margin-left: 10px;
 }
-.forecast-icon {
-  font-size: 44px;
-  margin-top: 22px;
-}
+
 .forecast-unit {
-  margin-top: 15px;
+  margin-top: 6px;
   font-size: 28px;
   color: #272142;
 }
