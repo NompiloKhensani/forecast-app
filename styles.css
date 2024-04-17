@@ -8,7 +8,7 @@ header {
 
 .forecast-app {
   background-color: #f4f4fe;
-  max-width: 650px;
+  max-width: 600px;
   margin: 45px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 20px;
@@ -18,7 +18,7 @@ header {
   background-color: #d9d9da;
   border: none;
   border-radius: 6px;
-  width: 80%;
+  width: 75%;
   font-size: 16px;
   padding: 15px 25px;
 }
