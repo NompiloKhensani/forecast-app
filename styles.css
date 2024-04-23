@@ -85,8 +85,8 @@ main {
   margin-bottom: 10px;
 }
 .weather-forecast-icon {
-  width: 88px;
-  text-align: center;
+  width: 75px;
+  height: 75px;
   display: block;
   margin: 0 auto;
 }
