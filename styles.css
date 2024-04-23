@@ -53,7 +53,7 @@ main {
 .forecast-app-details strong {
   color: #b65cff;
 }
-.forecast-temp-container {
+.forecast-app-temp-container {
   display: flex;
 }
 .forecast-icon {
@@ -83,6 +83,12 @@ main {
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
+}
+.weather-forecast-icon {
+  width: 88px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 .weather-forecast-temperatures {
   text-align: center;
