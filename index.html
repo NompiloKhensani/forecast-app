@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Forecast App</title>
-    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
-    <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <title>Forecast App</title>
   </head>
   <body>
     <div class="forecast-app">
@@ -31,8 +31,8 @@
         <div class="forecast-app-data">
           <div>
             <h1 class="forecast-city" id="city"></h1>
-            <p class="forecast-details">
-              <span id="current-date"></span>, <span id="description"></span>
+            <p class="forecast-app-details">
+              <span id="time"></span>, <span id="description"></span>
               <br />
               Humidity: <strong id="humidity"></strong>, Wind:
               <strong id="wind-speed"></strong>
@@ -47,6 +47,61 @@
             </div>
             <div class="forecast-temp-value" id="temperature"></div>
             <div class="forecast-unit">℃</div>
+          </div>
+        </div>
+        <div class="weather-forecast" id="forecast">
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Tue</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>12℃</strong>
+              </div>
+              <div class="weather-forecast-temperature">3℃</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-day">
+              <div class="weather-forecast-date">Wed</div>
+              <div class="weather-forecast-temperatures">
+                <div class="weather-forecast-temperature">
+                  <strong>12℃</strong>
+                </div>
+                <div class="weather-forecast-temperature">3℃</div>
+              </div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-day">
+              <div class="weather-forecast-date">Thu</div>
+              <div class="weather-forecast-temperatures">
+                <div class="weather-forecast-temperature">
+                  <strong>12℃</strong>
+                </div>
+                <div class="weather-forecast-temperature">3℃</div>
+              </div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-day">
+              <div class="weather-forecast-date">Fri</div>
+              <div class="weather-forecast-temperatures">
+                <div class="weather-forecast-temperature">
+                  <strong>12℃</strong>
+                </div>
+                <div class="weather-forecast-temperature">3℃</div>
+              </div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-day">
+              <div class="weather-forecast-date">Sat</div>
+              <div class="weather-forecast-temperatures">
+                <div class="weather-forecast-temperature">
+                  <strong>12℃</strong>
+                </div>
+                <div class="weather-forecast-temperature">3℃</div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
